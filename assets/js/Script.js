@@ -6,11 +6,11 @@
   const DICT = {
     pt: {
       // Navegação
-      'nav.home': 'Home',
+      'nav.home': 'Início',
       'nav.projects': 'Projetos',
       'nav.resume': 'Currículo',
-      'nav.education': 'Education',
-      'nav.experience': 'Experience',
+      'nav.education': 'Acadêmico',
+      'nav.experience': 'Experiência',
       'nav.contact': 'Contato',
 
       // Home
