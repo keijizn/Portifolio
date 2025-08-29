@@ -88,7 +88,7 @@
       'nav.home': 'Home',
       'nav.projects': 'Projects',
       'nav.resume': 'Resume',
-      'nav.education': 'Education',
+      'nav.education': 'Formation',
       'nav.experience': 'Experience',
       'nav.contact': 'Contact',
 
