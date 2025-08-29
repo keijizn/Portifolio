@@ -21,7 +21,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
 # Links úteis
 
- Site publicado: https://portifolio-three-gold-18.vercel.app/
+ Link para o site: https://portifolio-z2ih.vercel.app
  Repositório no GitHub: https://github.com/keijzn/Portifolio
 
  O que você encontra no site
