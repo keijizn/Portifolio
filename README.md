@@ -25,7 +25,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
  O que você encontra no site
 
-- Home: apresentação, redes sociais, e seções Education e Experience visíveis na própria página.
+- Home: apresentação, redes sociais, e seções Formação/Formation e Experiência/Experience visíveis na própria página.
 
 - Projetos: carrossel com 3 projetos e ícones das stacks usadas.
 
