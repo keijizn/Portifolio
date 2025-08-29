@@ -45,7 +45,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
 - Em Contato, envie uma mensagem que será encaminhada para o meu e-mail via Formspree.
 
-# Instruções de Desenvolvimento
+# Instruções de Desenvolvimento 📌
 
 Se você quiser rodar ou modificar o projeto localmente:
 
