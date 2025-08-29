@@ -59,14 +59,8 @@ Se você quiser rodar ou modificar o projeto localmente:
 
 ## Passos:
 
-## Clone o repositório
+- Clone o repositório: git clone https://github.com/keijizn/Portifolio.git
 
-### git clone https://github.com/keijizn/Portifolio.git
+- Acesse a pasta do projeto: cd Portfolio
 
-## Acesse a pasta do projeto
-
-### cd Portfolio
-
-## Abra o arquivo principal no navegador
-
-### o index.html 
+- Abra o arquivo principal no navegador: o index.html 
