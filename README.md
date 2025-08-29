@@ -1,4 +1,4 @@
-📜#Portfólio — Gustavo Ignácio
+# Portfólio — Gustavo Ignácio
 
  Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar projetos, formação, experiências e formas de contato.
 O objetivo é compartilhar minha trajetória como estudante e futuro profissional de Engenharia de Software.
