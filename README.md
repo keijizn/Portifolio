@@ -5,7 +5,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
 # Tecnologias Utilizadas 🌐
 
- HTML5 — estrutura do site
+- HTML5 — estrutura do site
 
  CSS (responsivo) — tema dark e componentes reutilizáveis
 
