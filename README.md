@@ -44,3 +44,26 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 - Use o botão EN/PT no cabeçalho para trocar o idioma de toda a interface.
 
 - Em Contato, envie uma mensagem que será encaminhada para o meu e-mail via Formspree.
+
+# Instruções de Desenvolvimento
+
+Se você quiser rodar ou modificar o projeto localmente:
+
+## Pré requisitos:
+
+- Git instalado
+
+- Um navegador atualizado
+
+- Um editor de Código
+
+## Passos:
+
+# 1. Clone o repositório
+git clone https://github.com/Diogo-Henrique-Moreira-da-Silva/Portifolio.git
+
+# 2. Acesse a pasta do projeto
+cd Portfolio
+
+# 3. Abra o arquivo principal no navegador
+# o index.html 
