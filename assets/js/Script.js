@@ -1,8 +1,5 @@
-// lang.js (corrigido e ampliado)
 (() => {
   const LANG_KEY = 'site_lang';
-
-  // Dicionário
   const DICT = {
     pt: {
       // Navegação
@@ -13,7 +10,7 @@
       'nav.experience': 'Experiência',
       'nav.contact': 'Contato',
 
-      // Home
+      // Início
       'home.hero.imgAlt': 'Foto de perfil',
       'home.hero.h1': 'Olá, este é <span>Gustavo</span>',
       'home.hero.iAm': 'Eu sou ',
@@ -21,7 +18,7 @@
         'Olá! Eu sou Gustavo Ignácio, estudante de Engenharia de Software. Minha paixão está no desenvolvimento, principalmente na parte do front. Ao longo da minha carreira acadêmica, contribui ativamente para o design de soluções, implementação de funcionalidades e otimização de desempenho nas camadas web e de dados. Estou sempre em busca de aplicar e expandir minha expertise técnica em ambientes inovadores e colaborativos.',
       'home.hero.contact': 'Contato',
 
-      // Education
+      // Formação
       'edu.title': 'Education',
       'edu.box.title': 'PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS (PUC MINAS)',
       'edu.box.p1':
@@ -29,7 +26,7 @@
       'edu.box.p2':
         'O curso de Engenharia de Software na PUC Minas me proporciona uma formação completa, focada em todo o ciclo de desenvolvimento de software. A grade curricular abrange desde linguagens de programação e estruturas de dados até arquitetura de software, gestão de projetos e metodologias ágeis, preparando-me para criar soluções robustas e escaláveis.',
 
-      // Experience
+      // Experiência
       'xp.title': 'Experience',
       'xp.box.header': 'Em busca da primeira oportunidade',
       'xp.box.p1':
@@ -71,7 +68,7 @@
       'projects.p3.desc1': 'Sistema desenvolvido para a organização e adequação de tempo e tarefas para melhor qualidade de estudo e vida.',
       'projects.p3.desc2': 'Stack: HTML, CSS, JavaScript.',
 
-      // Currículo (legenda e botões)
+      // Currículo
       'resume.caption.pt': 'Versão: Português',
       'resume.download.pt': 'Download (PT)',
       'resume.download.en': 'Download (EN)',
@@ -103,7 +100,7 @@
         'Hi! I’m Gustavo Ignácio, a Software Engineering student. I’m passionate about development, especially front-end. Throughout my academic journey, I’ve actively contributed to solution design, feature implementation, and performance optimization across web and data layers. I’m always looking to apply and expand my technical expertise in innovative, collaborative environments.',
       'home.hero.contact': 'Contact',
 
-      // Education
+      // Formation
       'edu.title': 'Education',
       'edu.box.title': 'PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS (PUC MINAS)',
       'edu.box.p1':
