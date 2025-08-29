@@ -59,11 +59,11 @@ Se você quiser rodar ou modificar o projeto localmente:
 
 ## Passos:
 
-# 1. Clone o repositório
-git clone https://github.com/Diogo-Henrique-Moreira-da-Silva/Portifolio.git
+## 1. Clone o repositório
+### git clone https://github.com/keijizn/Portifolio.git
 
-# 2. Acesse a pasta do projeto
-cd Portfolio
+## 2. Acesse a pasta do projeto
+### cd Portfolio
 
-# 3. Abra o arquivo principal no navegador
-# o index.html 
+## 3. Abra o arquivo principal no navegador
+### o index.html 
