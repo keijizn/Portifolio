@@ -6,7 +6,7 @@
       'nav.home': 'Início',
       'nav.projects': 'Projetos',
       'nav.resume': 'Currículo',
-      'nav.education': 'Acadêmico',
+      'nav.education': 'Formação',
       'nav.experience': 'Experiência',
       'nav.contact': 'Contato',
 
@@ -19,7 +19,7 @@
       'home.hero.contact': 'Contato',
 
       // Formação
-      'edu.title': 'Education',
+      'edu.title': 'Formação',
       'edu.box.title': 'PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS (PUC MINAS)',
       'edu.box.p1':
         'Bacharelado em Engenharia de Software – Previsão de Conclusão: 2027',
@@ -27,7 +27,7 @@
         'O curso de Engenharia de Software na PUC Minas me proporciona uma formação completa, focada em todo o ciclo de desenvolvimento de software. A grade curricular abrange desde linguagens de programação e estruturas de dados até arquitetura de software, gestão de projetos e metodologias ágeis, preparando-me para criar soluções robustas e escaláveis.',
 
       // Experiência
-      'xp.title': 'Experience',
+      'xp.title': 'Experiência',
       'xp.box.header': 'Em busca da primeira oportunidade',
       'xp.box.p1':
         'Ainda não possuo experiência profissional formal na área, mas venho construindo um portfólio sólido por meio de projetos acadêmicos e pessoais.',
@@ -101,7 +101,7 @@
       'home.hero.contact': 'Contact',
 
       // Formation
-      'edu.title': 'Education',
+      'edu.title': 'Formation',
       'edu.box.title': 'PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS (PUC MINAS)',
       'edu.box.p1':
         "Bachelor's in Software Engineering – Expected Graduation: 2027",
