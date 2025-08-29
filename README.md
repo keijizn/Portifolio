@@ -22,7 +22,6 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 # Links úteis
 
  Link para o site: https://portifolio-z2ih.vercel.app
- Repositório no GitHub: https://github.com/keijzn/Portifolio
 
  O que você encontra no site
 
