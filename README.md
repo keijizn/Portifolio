@@ -1,9 +1,9 @@
-# Portfólio — Gustavo Ignácio
+📜 # Portfólio — Gustavo Ignácio
 
  Este é o repositório do meu portfólio pessoal, desenvolvido para apresentar projetos, formação, experiências e formas de contato.
 O objetivo é compartilhar minha trajetória como estudante e futuro profissional de Engenharia de Software.
 
-# Tecnologias Utilizadas
+🌐 # Tecnologias Utilizadas
 
  HTML5 — estrutura do site
 
@@ -19,7 +19,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
  Vercel — hospedagem e deploy contínuo
 
-# Links úteis
+🔗 # Links úteis
 
  Link para o site: https://portifolio-z2ih.vercel.app
 
@@ -35,7 +35,7 @@ O objetivo é compartilhar minha trajetória como estudante e futuro profissiona
 
  Alternância de idioma (PT ↔ EN) global pelo botão no cabeçalho.
 
-# Instruções de Uso
+✏️ # Instruções de Uso
 
  Acesse o link do site publicado.
 
