@@ -46,3 +46,4 @@ Depois, abra `index.html` no navegador ou use uma extensão/servidor local como 
 ## Deploy
 
 O projeto está preparado para deploy estático na Vercel por meio do arquivo `vercel.json`.
+Link para o site: https://portifolio-z2ih.vercel.app
