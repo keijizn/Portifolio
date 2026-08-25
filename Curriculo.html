@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Currículo de Gustavo Ignácio, estudante de Engenharia de Software." />
+  <title data-i18n="resume.headTitle">Currículo — Gustavo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/Style.css" />
+  <link rel="stylesheet" href="assets/css/Curriculo.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo" aria-label="Gustavo - Início">Gustavo</a>
+    <nav id="mainNav" aria-label="Navegação principal">
+      <a href="index.html" data-i18n="nav.home">Início</a>
+      <a href="Projetos.html" data-i18n="nav.projects">Projetos</a>
+      <a href="Curriculo.html" class="active" data-i18n="nav.resume">Currículo</a>
+      <a href="index.html#education" data-i18n="nav.education">Formação</a>
+      <a href="index.html#experience" data-i18n="nav.experience">Experiência</a>
+      <a href="Contato.html" data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle-btn" type="button" aria-label="Switch language">EN</button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="resume-page">
+    <section class="resume-hero reveal">
+      <span class="section-kicker" data-i18n="resume.kicker">Minha trajetória</span>
+      <h1 data-i18n="resume.title">Currículo</h1>
+      <p data-i18n="resume.subtitle">Visualize ou baixe a versão do currículo no idioma desejado.</p>
+    </section>
+
+    <section class="resume-layout reveal">
+      <figure class="cv-frame">
+        <div class="cv-toolbar">
+          <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+          <figcaption id="cvCaption">Versão: Português</figcaption>
+        </div>
+        <div class="cv-scroll">
+          <img id="cvImg"
+               src="assets/img/curriculo portugues.jpg"
+               data-pt-src="assets/img/curriculo portugues.jpg"
+               data-en-src="assets/img/curriculo ingles.png"
+               alt="Currículo de Gustavo em Português" />
+        </div>
+      </figure>
+
+      <aside class="resume-actions-card">
+        <div class="resume-action-icon"><i class="fa-regular fa-file-lines"></i></div>
+        <h2 data-i18n="resume.title">Currículo</h2>
+        <p data-i18n="resume.subtitle">Visualize ou baixe a versão do currículo no idioma desejado.</p>
+        <div class="cv-actions">
+          <a class="btn" href="assets/img/curriculo portugues.jpg" download>
+            <i class="fa-solid fa-download"></i><span data-i18n="resume.download.pt">Baixar currículo PT</span>
+          </a>
+          <a class="btn secondary" href="assets/img/curriculo ingles.png" download>
+            <i class="fa-solid fa-download"></i><span data-i18n="resume.download.en">Baixar currículo EN</span>
+          </a>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="assets/js/Script.js" defer></script>
+</body>
+</html>

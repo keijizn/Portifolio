@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfólio de Gustavo Ignácio, estudante de Engenharia de Software e desenvolvedor full stack." />
+  <title>Portfólio — Gustavo</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/Style.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo" aria-label="Gustavo - Início">Gustavo</a>
+
+    <nav id="mainNav" aria-label="Navegação principal">
+      <a href="index.html" class="active" data-i18n="nav.home">Início</a>
+      <a href="Projetos.html" data-i18n="nav.projects">Projetos</a>
+      <a href="Curriculo.html" data-i18n="nav.resume">Currículo</a>
+      <a href="#education" data-i18n="nav.education">Formação</a>
+      <a href="#experience" data-i18n="nav.experience">Experiência</a>
+      <a href="Contato.html" data-i18n="nav.contact">Contato</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle-btn" type="button" aria-label="Switch language">EN</button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="home">
+      <div class="home-img reveal">
+        <img src="assets/img/Profile.webp" alt="" data-i18n-attr="alt:home.hero.imgAlt">
+      </div>
+
+      <div class="home-content reveal">
+        <span class="eyebrow" data-i18n="home.hero.eyebrow">Disponível para novos desafios</span>
+        <h1 data-i18n-html="home.hero.h1">Olá, este é <span>Gustavo</span></h1>
+        <h3 class="typing-text"><span></span></h3>
+
+        <p data-i18n="home.hero.p">
+          Olá! Eu sou Gustavo Ignácio, estudante de Engenharia de Software e apaixonado por desenvolvimento de software.
+        </p>
+
+        <div class="hero-actions">
+          <a href="Projetos.html" class="btn">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            <span data-i18n="home.hero.projects">Ver projetos</span>
+          </a>
+          <a href="Contato.html" class="btn secondary">
+            <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+            <span data-i18n="home.hero.contact">Contato</span>
+          </a>
+        </div>
+
+        <div class="social-icons" aria-label="Redes sociais">
+          <a href="https://www.instagram.com/gus_ke" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/gustavo-ignacio-b32660308" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/keijizn" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="education section reveal">
+      <div class="section-title-wrap">
+        <div>
+          <span class="section-kicker" data-i18n="edu.kicker">Aprendizado contínuo</span>
+          <h2 data-i18n="edu.title">Formação</h2>
+        </div>
+      </div>
+
+      <article class="edu-box">
+        <h3>
+          <i class="fa-solid fa-graduation-cap"></i>
+          <span data-i18n="edu.box.title">PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS (PUC MINAS)</span>
+        </h3>
+        <p data-i18n-html="edu.box.p1">
+          <strong>Bacharelado em Engenharia de Software</strong> – Previsão de Conclusão: <strong>2027</strong>
+        </p>
+        <p data-i18n="edu.box.p2">
+          O curso de Engenharia de Software na PUC Minas me proporciona uma formação completa em desenvolvimento de software.
+        </p>
+      </article>
+    </section>
+
+    <section id="experience" class="experience section reveal">
+      <div class="section-title-wrap">
+        <div>
+          <span class="section-kicker" data-i18n="xp.kicker">Construindo experiência</span>
+          <h2 data-i18n="xp.title">Experiência</h2>
+        </div>
+      </div>
+
+      <article class="xp-box">
+        <h3><i class="fa-solid fa-briefcase"></i> <span data-i18n="xp.box.header">Em busca da primeira oportunidade</span></h3>
+        <p data-i18n="xp.box.p1">
+          Ainda não possuo experiência profissional formal na área, mas venho construindo um portfólio sólido por meio de projetos acadêmicos e pessoais.
+        </p>
+        <p data-i18n="xp.box.p2">
+          Busco minha primeira oportunidade em um ambiente colaborativo para contribuir e evoluir com feedbacks e metodologias ágeis.
+        </p>
+
+        <ul class="xp-list">
+          <li data-i18n-html="xp.li1"><strong>Projetos:</strong> páginas responsivas, APIs e aplicações full stack.</li>
+          <li data-i18n-html="xp.li2"><strong>Boas práticas:</strong> Git/GitHub, kanban e documentação.</li>
+          <li data-i18n-html="xp.li3"><strong>Qualidade:</strong> acessibilidade, semântica e testes básicos.</li>
+          <li data-i18n-html="xp.li4"><strong>Soft skills:</strong> proatividade e comunicação clara.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <script src="assets/js/Script.js" defer></script>
+</body>
+</html>

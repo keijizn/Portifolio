@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Projetos de desenvolvimento de software de Gustavo Ignácio." />
+  <title data-i18n="projects.title">Projetos — Gustavo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/Style.css" />
+  <link rel="stylesheet" href="assets/css/Projeto.css" />
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo" aria-label="Gustavo - Início">Gustavo</a>
+    <nav id="mainNav" aria-label="Navegação principal">
+      <a href="index.html" data-i18n="nav.home">Início</a>
+      <a href="Projetos.html" class="active" data-i18n="nav.projects">Projetos</a>
+      <a href="Curriculo.html" data-i18n="nav.resume">Currículo</a>
+      <a href="index.html#education" data-i18n="nav.education">Formação</a>
+      <a href="index.html#experience" data-i18n="nav.experience">Experiência</a>
+      <a href="Contato.html" data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-toggle-btn" type="button" aria-label="Switch language">EN</button>
+      <button id="menuToggle" class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="projects-page">
+    <header class="projects-hero reveal">
+      <div>
+        <span class="section-kicker" data-i18n="projects.kicker">O que venho construindo</span>
+        <h1 data-i18n="projects.heading">Projetos em destaque</h1>
+        <p data-i18n="projects.intro">Uma seleção de aplicações acadêmicas e pessoais, explorando front-end, back-end, bancos de dados e arquitetura de software.</p>
+      </div>
+      <div class="projects-total" aria-hidden="true">
+        <strong>07</strong>
+        <span data-i18n="projects.total">projetos</span>
+      </div>
+    </header>
+
+    <section class="carousel reveal" aria-label="" data-i18n-attr="aria-label:projects.carouselLabel" tabindex="0">
+      <div class="carousel-topbar">
+        <div class="carousel-counter" aria-live="polite">
+          <span id="currentSlide">01</span>
+          <span class="counter-line"></span>
+          <span id="totalSlides">08</span>
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn prev" type="button" aria-label="Anterior" data-i18n-attr="aria-label:projects.prevAria">
+            <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+          </button>
+          <button class="carousel-btn next" type="button" aria-label="Próximo" data-i18n-attr="aria-label:projects.nextAria">
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="carousel-window">
+        <ul class="carousel-track" id="carouselTrack">
+          <li class="slide current">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/gearUp.webp" class="project-thumb" alt="" loading="eager" data-i18n-attr="alt:projects.p1.imgAlt">
+                <span class="project-category" data-i18n="projects.p1.category">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">01</span>
+                <h2 data-i18n="projects.p1.title">GearUp</h2>
+                <p data-i18n="projects.p1.desc1">Plataforma web para gerenciamento de serviços automotivos, veículos, agendamentos, peças e acompanhamento de serviços.</p>
+                <div class="stack-chips" aria-label="Tecnologias utilizadas">
+                  <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PostgreSQL</span><span>Java</span><span>Spring Boot</span>
+                </div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2025-1-ti3-9577100-gearup" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/g-agro.webp" class="project-thumb" alt="" loading="lazy" data-i18n-attr="alt:projects.p2.imgAlt">
+                <span class="project-category" data-i18n="projects.p2.category">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">02</span>
+                <h2 data-i18n="projects.p2.title">G-AGRO</h2>
+                <p data-i18n="projects.p2.desc1">Sistema voltado ao agronegócio para otimização de processos e apoio à gestão agrícola.</p>
+                <div class="stack-chips"><span>React</span><span>Bootstrap</span><span>JavaScript</span><span>PostgreSQL</span><span>Java</span><span>Spring Boot</span></div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-2-ti2-3687100-g-agro" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/Clever Routine.webp" class="project-thumb" alt="" loading="lazy" data-i18n-attr="alt:projects.p3.imgAlt">
+                <span class="project-category" data-i18n="projects.p3.category">Front-end</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">03</span>
+                <h2 data-i18n="projects.p3.title">Clever Routine</h2>
+                <p data-i18n="projects.p3.desc1">Sistema desenvolvido para organização de tempo e tarefas, buscando melhorar a rotina de estudos e a qualidade de vida.</p>
+                <div class="stack-chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2010100-clever-routine" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media generated-visual nextstep">
+                <i class="fa-solid fa-language" aria-hidden="true"></i>
+                <span>NextStep English</span>
+                <small>GAMIFIED LEARNING</small>
+                <span class="project-category">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">04</span>
+                <h2>NextStep English</h2>
+                <p data-i18n="projects.p4.desc1">Plataforma gamificada de ensino de inglês com perfis distintos, quizzes, ranking e verificação de e-mail.</p>
+                <div class="stack-chips"><span>React</span><span>Vite</span><span>Java</span><span>Spring Boot</span><span>PostgreSQL</span></div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2026-1-ti4-3170100-nextstep-english" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media generated-visual studentcoin">
+                <i class="fa-solid fa-coins" aria-hidden="true"></i>
+                <span>StudentCoin</span>
+                <small>DISTRIBUTED SYSTEM</small>
+                <span class="project-category">Back-end</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">05</span>
+                <h2>StudentCoin</h2>
+                <p data-i18n="projects.p5.desc1">Sistema acadêmico distribuído para moedas estudantis, com autenticação JWT, mensageria, benefícios e processamento assíncrono de saldo.</p>
+                <div class="stack-chips"><span>Kotlin</span><span>Spring Boot</span><span>MySQL</span><span>RabbitMQ</span><span>Docker</span></div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/keijizn/Projeto-Sistema-de-Troca-de-Moedas-Escolares" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media generated-visual finanzero">
+                <i class="fa-solid fa-wallet" aria-hidden="true"></i>
+                <span>ExpenseFlow</span>
+                <small>FINANCE MANAGEMENT</small>
+                <span class="project-category">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">06</span>
+                <h2>ExpenseFlow</h2>
+                <p data-i18n="projects.p6.desc1">Aplicação de gestão financeira com APIs REST, interface web e recursos de envio e exportação de informações financeiras.</p>
+                <div class="stack-chips"><span>React</span><span>Vite</span><span>Java 17</span><span>Spring Boot</span><span>REST</span></div>
+                <div class="project-actions">
+                  <a class="btn" href="https://github.com/keijizn/ExpenseFlow" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+
+          <li class="slide">
+            <article class="project-card">
+              <div class="project-media generated-visual perussi">
+                <i class="fa-solid fa-bag-shopping" aria-hidden="true"></i>
+                <span>Perussi</span>
+                <small>E-COMMERCE</small>
+                <span class="project-category">Full Stack</span>
+              </div>
+              <div class="project-body">
+                <span class="project-number">07</span>
+                <h2>Perussi E-commerce</h2>
+                <p data-i18n="projects.p7.desc1">E-commerce com catálogo, carrinho, checkout, preenchimento de endereço por CEP e autorização por perfil de usuário.</p>
+                <div class="stack-chips"><span>React</span><span>TypeScript</span><span>Java 21</span><span>Spring Boot</span><span>PostgreSQL</span></div>
+               <div class="project-actions">
+                  <a class="btn" href="https://github.com/keijizn/Perussi" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-github"></i><span data-i18n="projects.code">Ver código</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </li>
+        </ul>
+      </div>
+
+      <div class="carousel-bottom">
+        <div class="carousel-dots" id="carouselDots" data-i18n-attr="aria-label:projects.dotsLabel" aria-label="Navegação de slides"></div>
+        <p class="carousel-hint" data-i18n="projects.hint"><i class="fa-solid fa-arrows-left-right"></i> Use as setas ou arraste para navegar</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/Script.js" defer></script>
+  <script src="assets/js/Projeto.js" defer></script>
+</body>
+</html>

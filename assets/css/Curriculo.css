@@ -1,0 +1,90 @@
+.resume-page{
+  width:min(100% - 4rem,var(--container));
+  margin:0 auto;
+  padding:calc(var(--header-h) + 7rem) 0 9rem;
+}
+
+.resume-hero{ min-height:auto; padding:0; margin-bottom:3rem; }
+.resume-hero h1{
+  font-family:'Space Grotesk',sans-serif;
+  font-size:clamp(4rem,6vw,6.8rem);
+  line-height:1;
+  letter-spacing:-.25rem;
+}
+.resume-hero p{
+  max-width:660px;
+  margin-top:1.4rem;
+  color:var(--muted);
+  font-size:1.5rem;
+}
+
+.resume-layout{
+  min-height:auto;
+  padding:0;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 320px;
+  gap:2rem;
+  align-items:start;
+}
+
+.cv-frame{
+  overflow:hidden;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:var(--surface-strong);
+  box-shadow:var(--shadow);
+}
+
+.cv-toolbar{
+  min-height:56px;
+  padding:0 1.6rem;
+  display:flex;
+  align-items:center;
+  gap:1.2rem;
+  border-bottom:1px solid var(--border);
+}
+.window-dots{ display:flex; gap:.55rem; }
+.window-dots span{ width:8px; height:8px; border-radius:50%; background:#414956; }
+.window-dots span:first-child{ background:var(--accent); }
+.cv-toolbar figcaption{ margin-left:auto; color:var(--muted); font-size:1.2rem; font-weight:600; }
+.cv-scroll{ padding:1.2rem; }
+.cv-frame img{ width:100%; height:auto; display:block; border-radius:14px; user-select:none; }
+
+.resume-actions-card{
+  position:sticky;
+  top:calc(var(--header-h) + 2rem);
+  padding:2.4rem;
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  background:linear-gradient(145deg,rgba(20,24,33,.94),rgba(12,15,21,.9));
+  box-shadow:var(--shadow);
+}
+.resume-action-icon{
+  width:52px;
+  height:52px;
+  display:grid;
+  place-items:center;
+  margin-bottom:1.8rem;
+  border:1px solid var(--border-strong);
+  border-radius:16px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-size:2rem;
+}
+.resume-actions-card h2{ font-family:'Space Grotesk',sans-serif; font-size:2.4rem; }
+.resume-actions-card p{ margin-top:.8rem; color:var(--muted); font-size:1.35rem; line-height:1.7; }
+.cv-actions{ margin-top:2rem; display:grid; gap:.9rem; }
+.cv-actions .btn{ width:100%; }
+
+@media(max-width:880px){
+  .resume-page{ width:min(100% - 3rem,var(--container)); padding-top:calc(var(--header-h) + 5rem); }
+  .resume-layout{ grid-template-columns:1fr; }
+  .resume-actions-card{ position:static; order:-1; }
+  .cv-actions{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+}
+
+@media(max-width:560px){
+  .resume-hero h1{ letter-spacing:-.16rem; }
+  .cv-actions{ grid-template-columns:1fr; }
+  .resume-actions-card{ padding:2rem; }
+}
